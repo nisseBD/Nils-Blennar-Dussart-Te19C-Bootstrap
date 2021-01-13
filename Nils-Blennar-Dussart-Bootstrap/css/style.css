@@ -30,29 +30,29 @@ h3 {
     justify-content: center;
 }
 
-  li {
-    font-size: 300%;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+li {
+  font-size: 300%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
-  #myBtn {
-    display: none; /* Visar inte knappen vid toppen av hemsidan */
-    position: fixed; /* Gör så att knappens position inte ändras */
-    bottom: 20px; /* Sätter knappen längst ner på hemsidan */
-    right: 30px; /* Sätter knappen 30px från höger */
-    outline: none; /* Tar bort en så kallad "outline" när man trycker på knappen */
-    background-color: red;
-    color: white; 
-    cursor: pointer; /* Lägger till en liten hand när man har musen på knappen */
-    padding: 15px;
-    border-radius: 10px; /* Gör kanterna lite mer runda */
-    font-size: 18px; 
-  }
+#myBtn {
+  display: none; /* Visar inte knappen vid toppen av hemsidan */
+  position: fixed; /* Gör så att knappens position inte ändras */
+  bottom: 20px; /* Sätter knappen längst ner på hemsidan */
+  right: 30px; /* Sätter knappen 30px från höger */
+  outline: none; /* Tar bort en så kallad "outline" när man trycker på knappen */
+  background-color: red;
+  color: white; 
+  cursor: pointer; /* Lägger till en liten hand när man har musen på knappen */
+  padding: 15px;
+  border-radius: 10px; /* Gör kanterna lite mer runda */
+  font-size: 18px; 
+}
   
-  #myBtn:hover {
-    background-color: #555;
-  }
+#myBtn:hover {
+  background-color: #555;
+}
 
 
 
