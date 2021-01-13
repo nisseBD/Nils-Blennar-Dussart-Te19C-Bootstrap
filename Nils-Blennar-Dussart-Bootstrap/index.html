@@ -11,20 +11,26 @@
 
 <body>
     <nav class="navbar navbar-inverse">
+        <!--Gör navbaren responsiv till mobiler då classen är gjord av bootstrap-->
         <ul class="nav navbar-nav">
             <li style="text-align: center;"><u>Bootstrap</u></li>
             <li style="font-size: 100%;">Nils Blennar Dussart - Te19C</li>
         </ul>
     </nav>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">UPP</button>
+    <!--knapp som tillkallar en funktion som tar en till toppen av hemsidan när man trycker-->
 
     <div class="container" style="background-color: black;">
+        <!--Lägger ihop alla delar i en container som är responsiv och kan anpassa alla olika "childs"-->
         <div class="container" style="background-color: white;">
+            <!--Lägger ihop delen i en egen container som gör att de olika delarna blir separata-->
             <div class="container">
+                <!--Gör bilden responsiv till mobila enheter-->
                 <img class="bild" src="bilder/Element.png">
             </div>
             <h1>
                 <u>Vad är ett Element?</u>
+                <!--Understreck på texten-->
             </h1>
             <h3>
                 Element i HTML är hemsidans "byggnadsklossar", det vill säga att olika Element gör olika saker t.ex h1
@@ -192,11 +198,11 @@
             </h3>
         </div>
 
-        <script>
-            //Get the button
+        <script> // Gör att man kan lägga till funktioner i javascript
+            //Tar fram knappen
             var mybutton = document.getElementById("myBtn");
 
-            // When the user scrolls down 20px from the top of the document, show the button
+            // När man skrollar 20px så kommer knappen fram
             window.onscroll = function () { scrollFunction() };
 
             function scrollFunction() {
@@ -207,7 +213,7 @@
                 }
             }
 
-            // When the user clicks on the button, scroll to the top of the document
+            // Gör själva funktionen där man klickar på knappen så tas man till toppen av hemsidan
             function topFunction() {
                 document.body.scrollTop = 0;
                 document.documentElement.scrollTop = 0;
